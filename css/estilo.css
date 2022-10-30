@@ -1,0 +1,374 @@
+@font-face {
+    font-family: "bablasfont";
+    src: url(../font/bBablasAngine.ttf);
+}
+@font-face {
+    font-family: "manuscrita";
+    src: url(../font/Joynoted\ Demo.ttf);
+}
+body {
+    background-color: #A08FBA;
+}
+
+.menu {
+    padding: 0%;
+    margin-left: auto;
+    width: 500px;
+    border: 2px #6c4f96 solid;
+    background-color: #6c4f96;
+    
+    
+}
+.menu ul{
+    font-family: "manuscrita";
+    font-weight: bolder;
+    list-style: none;
+    
+}
+
+
+ .menu ul li {
+    display: inline-block;
+   
+}
+
+.menu ul li a{
+    color:aliceblue;
+    display: block;
+    padding: 10px;
+    
+}
+
+.menu ul li a:hover {
+    background-color: #A08FBA;
+}
+
+.titulo {
+    border-radius: 5px #F0A6CA solid;
+    background-image: url(../galeria/th.jpg);
+    padding: 30px;
+    
+}
+
+.titulo h1 {
+      font-family: 'bablasfont';
+      text-align: center;
+      font-size: 150px;
+      color: #4c1c5e;
+      border: 4px white solid;
+      background-color: #d7c6f1;
+      padding-top: 10px;
+    }
+
+   
+
+.intro {
+    background-color: #d7c6f1;
+    padding: 30px;
+    
+
+}
+
+.intro p {
+    font-family: "manuscrita"; 
+    font-size: 25px;
+    font-weight: bold;
+    color: #4c1c5e;
+}
+
+.contenedorp {
+    background-color: #f1c0d8;
+    width: auto; 
+    padding-top: 20px;
+    
+}
+
+h2 {
+    font-family: "bablasfont";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #4c1c5e;
+    
+       
+}
+.contBene {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 15px;
+    list-style-type: none;
+}
+
+.box {
+    border: 5px #A08FBA solid;
+    border-radius: 10px;
+    width: 600px;
+}
+
+h3 {
+    font-size: 35px;
+    font-family: "bablasfont";
+    color: #6c4f96;
+    text-align: center;
+    text-shadow: #4c1c5e;
+    
+    
+}
+
+.circuit {
+    margin-top: 100px;
+    background-image: url(../galeria/th.jpg);
+    padding: 60px;
+
+}
+
+.productivo {
+    color: #4c1c5e;
+    background-color: #A08FBA;
+    font-size: 50px;
+    text-align: center;
+    border: white 5px solid;
+}
+.item {
+    font-family: "manuscrita";
+    color: #6c4f96;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.item p {
+    text-transform: lowercase;
+    font-size: 25px;
+}
+
+.pieFooter {
+    border: #A08FBA;
+    background-color: #A08FBA;
+    text-align: center;
+    height: 80px;
+    
+}
+        
+
+.pieFooter:hover {
+    background-color: #6c4f96;
+}
+
+h4{
+    font-family: "manuscrita";
+    font-size: 20px;
+    color: #31063a;
+    padding-top: 20px;  
+}
+h4:hover {
+    color: #d7c6f1;
+}
+
+iframe {
+    width: 980px;
+    height: 700px;
+    margin-top: 100px;
+    padding: auto;
+    border: #A08FBA 10px solid;
+    
+}
+
+.video {
+    text-align: center;
+    margin-top: 10px;
+
+}
+.textoUso {
+    background-color: #d7c6f1;
+    padding: 30px;
+    grid-area: intro;
+}
+.textoUso p {
+    font-family: "manuscrita"; 
+    font-size: 25px;
+    font-weight: bold;
+    color: #4c1c5e;
+}
+.otros {
+    background-image: url(../galeria/th.jpg);
+    padding: 60px;
+}
+
+.otros h2 {
+    border: 5px solid white;
+    background-color: #d7c6f1;
+}
+
+.itemUsos {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 10%;
+}
+
+.alfombra {
+    border: #6c4f96 solid 5px;
+    border-radius: 10px;
+}
+.alfombra:hover {
+    background-color: #f1c0d8;
+}
+p {
+    font-family: "manuscrita";
+    color: #31063a;
+    font-size: 30px;
+    font-weight: bold;
+}
+.industriales {
+    border: #6c4f96 solid 5px;
+    border-radius: 10px;
+}
+.industriales:hover {
+    background-color: #f1c0d8;
+}
+
+.tipos {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 10%;
+    justify-content: center;
+    row-gap: 5%;
+    
+}
+
+.tipos div{
+    border: #6c4f96 solid 5px;
+    border-radius: 5px;
+}
+.tipos div p{
+    font-size: 20px;
+}
+
+
+ .tipoUno:hover {
+    background-color: #f1c0d8;
+    
+    
+}
+.tipoDos:hover {
+    background-color: #f1c0d8;
+}
+.tipoTres:hover {
+    background-color: #f1c0d8;
+}
+.tipoCuatro:hover {
+    background-color: #f1c0d8;
+}
+
+.contImg {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+h5 {
+    text-align: center;
+    font-family: "bablasfont";
+    color: white;
+    font-size: 30px;
+    border: #31063a 2px solid;
+    border-radius: 10px;
+    background-color: #4c1c5e;
+    padding-top: 6px;
+}
+
+
+img {
+    width: 600px;
+    height: 500px;
+}
+.cordero {
+  border: #4c1c5e 5px solid;
+}
+.vicuña {
+    border: #4c1c5e 5px solid;
+}
+.cachemir {
+    border: #4c1c5e 5px solid;
+}
+.proceso {
+    border: #4c1c5e 5px solid;
+}
+
+img:hover {
+    width: 650px;
+    height: 550px;
+}
+h5:hover {
+    font-size: 30px;
+    color: #A08FBA ;
+}
+
+.form {
+    border: #31063a 2px solid;
+    border-radius: 5px;
+    background-color: #d7c6f1;
+    margin: auto;
+    padding: 30px;
+    width: 300px;
+    margin-top: 100px;
+}
+
+label {
+    font-size: 25px;
+    font-family: "manuscrita";
+    font-weight: bold;
+}
+.contact{
+    font-size: 50px;
+    color: #4c1c5e;
+    background-color: #A08FBA;
+    border: white solid 5px;
+    padding-top: 5px;
+    width: 500px;
+    margin: auto;
+}
+
+
+.maps {
+    display: grid;
+    justify-content: center;
+    
+}   
+iframe {
+    border: #4c1c5e 5px solid;
+} 
+.ubicacion {
+    margin-top: 100px;
+    background-image: url(../galeria/th.jpg);
+    border: white 2px solid;
+    border-radius: 5px;
+    width: 400px;
+    height: 50px;
+    padding-top: 15px;
+    text-align: center;
+    margin-left: 460px;
+    color: rgb(43, 4, 80);
+}
+.ubicacion:hover {
+    color: rgb(68, 12, 121);
+    font-size: 50px;
+    border: white 10px solid;
+}
+
+h6 {
+    font-family: "manuscrita";
+    font-size: 20px;
+    color: #4c1c5e;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 25px;
+    
+}
+h6:hover {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #d7c6f1;
+}
+
