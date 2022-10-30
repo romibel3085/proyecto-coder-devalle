@@ -76,8 +76,8 @@ body {
     color: #4c1c5e;
 }
 
-.contenedorp {
-    background-color: #f1c0d8;
+.conteinerp {
+    background-color: #A08FBA;
     width: auto; 
     padding-top: 20px;
     
@@ -101,9 +101,13 @@ h2 {
 }
 
 .box {
-    border: 5px #A08FBA solid;
+    border: 5px #6c4f96 solid;
     border-radius: 10px;
     width: 600px;
+}
+
+.box:hover {
+    background-color: #f1c0d8;
 }
 
 h3 {
@@ -148,6 +152,7 @@ h3 {
     background-color: #A08FBA;
     text-align: center;
     height: 80px;
+    margin-top: 200px;
     
 }
         
