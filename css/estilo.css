@@ -61,6 +61,7 @@ body {
     }
 
    
+     
 
 .intro {
     background-color: #d7c6f1;
@@ -87,7 +88,6 @@ h2 {
     font-family: "bablasfont";
     font-size: 40px;
     font-weight: bold;
-    text-align: center;
     color: #4c1c5e;
     
        
@@ -196,15 +196,9 @@ iframe {
     font-weight: bold;
     color: #4c1c5e;
 }
-.otros {
-    background-image: url(../galeria/th.jpg);
-    padding: 60px;
-}
 
-.otros h2 {
-    border: 5px solid white;
-    background-color: #d7c6f1;
-}
+
+
 
 .itemUsos {
     display: grid;
@@ -266,7 +260,7 @@ p {
     background-color: #f1c0d8;
 }
 
-.contImg {
+.row {
     margin-top: 200px;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -276,7 +270,7 @@ h5 {
     text-align: center;
     font-family: "bablasfont";
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     border: #31063a 2px solid;
     border-radius: 10px;
     background-color: #4c1c5e;
@@ -284,29 +278,16 @@ h5 {
 }
 
 
-img {
-    width: 600px;
-    height: 500px;
-}
-.cordero {
+
+.img-fluid {
   border: #4c1c5e 5px solid;
 }
-.vicuña {
-    border: #4c1c5e 5px solid;
-}
-.cachemir {
-    border: #4c1c5e 5px solid;
-}
-.proceso {
-    border: #4c1c5e 5px solid;
-}
 
-img:hover {
-    width: 650px;
-    height: 550px;
-}
+
+
+
 h5:hover {
-    font-size: 30px;
+    
     color: #A08FBA ;
 }
 
@@ -351,9 +332,9 @@ label {
     background-image: url(../galeria/th.jpg);
     border: white 2px solid;
     border-radius: 5px;
-    width: 400px;
+    width: 100%;
     height: 80px;
-    margin-left: 450px;
+    
     padding-top: 15px;
     color: rgb(43, 4, 80);
 }
