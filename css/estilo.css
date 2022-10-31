@@ -324,9 +324,7 @@ label {
     height: 50px;
 }
     
-    
-   
- 
+
 .text-center {
     margin-top: 100px;
     background-image: url(../galeria/th.jpg);
@@ -334,9 +332,8 @@ label {
     border-radius: 5px;
     width: 100%;
     height: 80px;
-    
     padding-top: 15px;
-    color: rgb(43, 4, 80);
+    color: rgb(141, 50, 233);
 }
 .text-center:hover {
     color: rgb(68, 12, 121);
