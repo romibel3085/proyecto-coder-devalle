@@ -260,10 +260,9 @@ p {
     background-color: #f1c0d8;
 }
 
-.row {
-    margin-top: 200px;
-    display: grid;
-    grid-template-columns: 50% 50%;
+img {
+    width: 900px;
+    height: 800px;
 }
 
 h5 {
