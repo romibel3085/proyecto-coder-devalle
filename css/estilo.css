@@ -134,7 +134,7 @@ h3 {
     text-align: center;
     border: white 5px solid;
 }
-.item {
+li {
     font-family: "manuscrita";
     color: #6c4f96;
     font-size: 20px;
@@ -142,7 +142,7 @@ h3 {
 
 }
 
-.item p {
+li p {
     text-transform: lowercase;
     font-size: 25px;
 }
