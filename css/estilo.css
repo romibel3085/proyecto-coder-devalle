@@ -192,38 +192,13 @@ iframe {
     color: #4c1c5e;
 }
 
-
-
-
-.itemUsos {
-    display: grid;
-    grid-template-columns: 45% 45%;
-    column-gap: 10%;
-}
-
-.alfombra {
-    border: #6c4f96 solid 5px;
-    border-radius: 10px;
-}
-.alfombra:hover {
-    background-color: #f1c0d8;
-}
 p {
     font-family: "manuscrita";
     color: #31063a;
     font-size: 25px;
     font-weight: bold;
 }
-.industriales {
-    border: #6c4f96 solid 5px;
-    border-radius: 10px;
-}
-.industriales:hover {
-    background-color: #f1c0d8;
-}
-
-
-
+   
 .row div{
     border: #6c4f96 solid 5px;
     border-radius: 5px;
@@ -233,20 +208,6 @@ p {
 }
 
 
- .tipoUno:hover {
-    background-color: #f1c0d8;
-    
-    
-}
-.tipoDos:hover {
-    background-color: #f1c0d8;
-}
-.tipoTres:hover {
-    background-color: #f1c0d8;
-}
-.tipoCuatro:hover {
-    background-color: #f1c0d8;
-}
 
 img {
     width: 900px;
