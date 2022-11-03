@@ -100,15 +100,8 @@ h2 {
     list-style-type: none;
 }
 
-.box {
-    border: 5px #6c4f96 solid;
-    border-radius: 10px;
-    width: 600px;
-}
 
-.box:hover {
-    background-color: #f1c0d8;
-}
+
 
 h3 {
     font-size: 35px;
@@ -139,7 +132,9 @@ li {
     color: #6c4f96;
     font-size: 20px;
     font-weight: bold;
-
+    border: 5px #6c4f96 solid;
+    border-radius: 10px;
+    width: 600px;
 }
 
 li p {
@@ -216,7 +211,7 @@ iframe {
 p {
     font-family: "manuscrita";
     color: #31063a;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
 }
 .industriales {
@@ -227,20 +222,13 @@ p {
     background-color: #f1c0d8;
 }
 
-.tipos {
-    display: grid;
-    grid-template-columns: 45% 45%;
-    column-gap: 10%;
-    justify-content: center;
-    row-gap: 5%;
-    
-}
 
-.tipos div{
+
+.row div{
     border: #6c4f96 solid 5px;
     border-radius: 5px;
 }
-.tipos div p{
+.row div p{
     font-size: 20px;
 }
 
