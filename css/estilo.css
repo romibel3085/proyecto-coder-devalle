@@ -9,92 +9,79 @@
 body {
     background-color: #A08FBA;
     padding: 90px 20px 0;
+    box-sizing: border-box;
 }
-
-.header {
+nav {
     background-color: #6c4f96;
     height: 80px;
-    position: fixed;
     width: 100%;
-    top: 0;
-    left: 0;
 }
-
-.nav {
-    display: flex;
-    justify-content: end;
-
-    max-width: 992px;
-    margin: 0 auto;
+nav ul{
+    float: right;
+    margin-right: 20px;
 
 }
-
-.nav-link {
-    color: #bd9bf0;
-    text-decoration: none;
-}
-
-.nav-menu {
-  display: flex;
-  list-style: none;
-  margin-right: 40px;
-    
-}
-.nav-menu-item {
-    font-size: 18px;
-    margin: 0 10px;
+nav ul li {
+    display: inline-block;
     line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    padding: 7px 13px;
     text-transform: uppercase;
-    width: max-content;
-    color: #6c4f96;
-
 }
-
-.nav-menu-link:hover {
-    background-color: #8c6c97;
+li a.active, li a:hover {
+    background-color: #F0A6CA;
     transition: 0.5s;
-
 }
-.boton {
-    color: #380585;
-    background: none;
-    border: none;
-    font-size: 60px;
-    padding: 0 20px;
-    line-height: 60px;
 
+.checkbtn {
+    width: 50px;
+    height: 50px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 30px;
+    cursor: pointer;
     display: none;
 }
 
-@media (max-width: 768px) {
-    .header {
-        height: 60px;
-    }
-    .nav-menu {
-        flex-direction: column;
-        margin-right: 20px;
-        background-color: #A08FBA;
-        position: fixed;
-        left: 0;
-        top: 60px;
-        height: calc(100% - 60px);
-        overflow-y: auto;
+#check {
+    display: none;
+}
 
-        left: 100%;
-        transition: left 0.3s;
-    }
-    .nav-menu-item {
-        line-height: 70px;
-    }
-    .nav-menu-link:hover,
-    .nav-menu-link-active {
-        background-color: none;
-        color: #ece0f0;
-    }
-    .boton {
+
+@media (max-width: 768px) {
+    .checkbtn {
         display: block;
     }
-    .nav-menu_visible {
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #A08FBA;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+        
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+
+    }
+    li a.active, li a:hover {
+        background: none;
+        color: #6c4f96;
+    }
+    #check:checked ~ ul {
         left: 0;
     }
 }
@@ -283,6 +270,7 @@ h5 {
 
 .img-fluid {
   border: #4c1c5e 5px solid;
+  z-index: 0;
 }
 
 
