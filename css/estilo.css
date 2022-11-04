@@ -8,39 +8,95 @@
 }
 body {
     background-color: #A08FBA;
+    padding: 90px 20px 0;
 }
 
-.menu {
-    padding: 0%;
-    margin-left: auto;
-    width: 500px;
-    border: 2px #6c4f96 solid;
+.header {
     background-color: #6c4f96;
-    
-    
-}
-.menu ul{
-    font-family: "manuscrita";
-    font-weight: bolder;
-    list-style: none;
-    
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
+.nav {
+    display: flex;
+    justify-content: end;
 
- .menu ul li {
-    display: inline-block;
-   
+    max-width: 992px;
+    margin: 0 auto;
+
 }
 
-.menu ul li a{
-    color:aliceblue;
-    display: block;
-    padding: 10px;
+.nav-link {
+    color: #bd9bf0;
+    text-decoration: none;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin-right: 40px;
     
 }
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+    color: #6c4f96;
 
-.menu ul li a:hover {
-    background-color: #A08FBA;
+}
+
+.nav-menu-link:hover {
+    background-color: #8c6c97;
+    transition: 0.5s;
+
+}
+.boton {
+    color: #380585;
+    background: none;
+    border: none;
+    font-size: 60px;
+    padding: 0 20px;
+    line-height: 60px;
+
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .header {
+        height: 60px;
+    }
+    .nav-menu {
+        flex-direction: column;
+        margin-right: 20px;
+        background-color: #A08FBA;
+        position: fixed;
+        left: 0;
+        top: 60px;
+        height: calc(100% - 60px);
+        overflow-y: auto;
+
+        left: 100%;
+        transition: left 0.3s;
+    }
+    .nav-menu-item {
+        line-height: 70px;
+    }
+    .nav-menu-link:hover,
+    .nav-menu-link-active {
+        background-color: none;
+        color: #ece0f0;
+    }
+    .boton {
+        display: block;
+    }
+    .nav-menu_visible {
+        left: 0;
+    }
 }
 
 .titulo {
@@ -132,9 +188,7 @@ li {
     color: #6c4f96;
     font-size: 20px;
     font-weight: bold;
-    border: 5px #6c4f96 solid;
-    border-radius: 10px;
-    width: 600px;
+   
 }
 
 li p {
